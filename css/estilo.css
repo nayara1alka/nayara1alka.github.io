@@ -77,8 +77,7 @@ body{
     z-index: 2;
 }
 .menu ul{
-    width: 100%;
-    margin-top: 100px;margin-top: 120px;
+    width: 100%;margin-top: 120px;
 }
 .menu li{
     text-align: center;
