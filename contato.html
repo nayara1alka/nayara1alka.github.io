@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="author" content="Nayara Almeida" />
+        <link href="https://fonts.googleapis.com/css?family=Lobster|PT+Sans:400,700&display=swap" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/estilo.css" />
+        <title>Hair Beauty</title>
+    </head>
+    <body>
+        <header id="cabecalho">
+            <div class="cabecalho2">
+              <div class="cabecalhoLI">
+                  <img id="logo" src="img/logo.png" alt="logo Hair Beauty" />
+                  <span class="icon"><i class="fa fa-bars" onclick="botaoBars()" ></i></span>
+              </div>
+              <nav class="menu">
+                  <span class="icon"><i class="fa fa-window-close" onclick="botaoClose()" ></i></span>
+                  <ul class="clearfix">
+                      <li><a href="index.html" >HOME</a></li>
+                      <li><a href="sobre.html" >SOBRE</a></li>
+                      <li><a href="servicos.html" >SERVIÇOS</a></li>
+                      <li><a href="galeria.html" >GALERIA</a></li>
+                      <li><a href="contato.html" >CONTATO</a></li>
+                  </ul>
+              </nav>
+            </div>    
+          </header>
+        <div id="contato">
+            <h2 class="titulo4">CONTATO</h2>
+        </div> 
+        <section id="contao2">
+            <h2 class="titulo2">Nos Envie</h2>
+            <h2 class="titulo1">FORMULÁRIO DE CONTATO</h2>
+            <form>
+                <fieldset class="fieldsetInput">
+                <input type="text" placeholder="Primeiro Nome" required/>
+                <input type="text" placeholder="Segundo Nome" required/>
+                <input type="email" placeholder="Seu E-mail" required>
+                </fieldset>
+                <textarea placeholder="Sua Mensagem" rows="5"></textarea>
+                <button class="clearfix" type="submit" >ENVIAR MENSAGEM</button>
+            </form>
+        </section>
+        <section class="clearfix" id="localizacao">
+            <h2 class="titulo2">Como Nos Encontrar</h2>
+            <h2 class="titulo1">INFORMAÇÕES DE CONTATO</h2>
+            <div class="contLocalizacao">
+                <div class="filhosLocalizacao">
+                    <h3 class="titulo3">ESTACIONAMENTO</h3>
+                    <p>Como temos estacionamento próprio, você não precisa se preocupar 
+                    com onde deixar o veículo. Nosso administrador irá ajudá-lo!</p>
+                </div>
+                <div class="filhosLocalizacao">
+                    <h3 class="titulo3">TELEFONE</h3>
+                    <p>Estamos felizes em responder às suas perguntas ou fornecer 
+                    instruções por telefone.</p>
+                    <p><span class="corVermelha">(00)0000-00000</span></p>
+                </div>
+                <div class="filhosLocalizacao">
+                    <h3 class="titulo3">E-MAIL</h3>
+                    <p>Se você estiver em movimento e ainda quiser fazer uma pergunta,
+                     envie-nos um e-mail.</p>
+                     <p><a href="#" >hairbeauty@gmail.com</a></p>
+                </div>
+            </div>
+        </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244651.98002400066!2d-49.402562006708806!3d-16.642461285946236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef0ede1248cf7%3A0xbaedffbfd0c11fd1!2sGoi%C3%A2nia%20-%20GO!5e0!3m2!1spt-BR!2sbr!4v1583759236166!5m2!1spt-BR!2sbr"
+         width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+         <footer id="rodape">
+            <div class="contRodape">
+               <img id="logo" src="img/logo.png" alt="Logo Hair Beauty" />
+               <div class="contRodapIc">
+                   <span class="icon"><a href="#"><i class="fa fa-facebook-f"></i></a></span>
+                   <span class="icon"><a href="#"><i class="fa fa-twitter"></i></a></span>
+                   <span class="icon"><a href="#"><i class="fa fa-instagram"></i></a></span>
+                   <span class="icon"><a href="#"><i class="fa fa-google-plus"></i></a></span>
+               </div>
+            </div>
+            <hr/>
+            <p>Copyright 2020<i class="fa fa-copyright"></i> Hair Beauty Corporation. Developed Nayara Almeida</p>
+        </footer>
+        <script src="js/script.js" ></script>
+    </body>
+</html>
