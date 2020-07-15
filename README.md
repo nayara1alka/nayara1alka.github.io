@@ -1,2 +1,2 @@
 #  https://nayara1alka.github.io/web-site
-Website desenvolvido usando somente HTML5,CSS3 e Javascript Puro
+Website responsivo, desenvolvido somente com HTML5,CSS3 e Javascript Puro
